@@ -7,3 +7,9 @@ variable "principal_id" {
   description = "The ID of the principal to assign the role to."
   type        = string
 }
+
+variable "description" {
+  description = "The description of the role assignment."
+  type        = string
+  default     = "Azure RBAC role assignment"
+}
